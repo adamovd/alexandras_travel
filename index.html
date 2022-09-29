@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Travel</title>
+  </head>
+  <body class="container-fluid">
+    <header class="row align-items-center">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+        <i class="bi bi-brightness-high"></i>
+          <a class="navbar-brand" href="#">Alexandras Travel</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Om mig</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+              </li>
+            </ul>
+            <i class="bi bi-airplane"></i>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Från"
+                aria-label="Search"
+              />
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Till"
+                  aria-label="Search"
+                />
+              <button class="btn btn-outline-dark" type="submit">
+                Sök
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="row align-items-center vh-100">
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Jag heter Alexandra</h1>
+          <p>Och jag älskar att resa till Mexiko och äta tacos med min katt!</p>
+          <button type="button" class="btn btn-success">Häng med!</button>
+        </div>
+      </div>
+    </main>
+    <section class="row work align-items-center text-center" id="articles">
+        <section
+          class="col-12 col-lg-4 d-flex justify-content-around align-items-center"
+        >
+          <figure class="card">
+            <img
+              class="katt"
+              src="Assets/katt.jpeg"
+              alt="Card image cap"
+            />
+            <article class="card-body">
+              <h5 class="card-title">Katter</h5>
+              <p class="card-text">
+                Att resa med sin katt i Mexiko.
+              </p>
+              <a href="#" class="btn btn-danger">Läs mer</a>
+            </article>
+          </figure>
+        </section>
+        <section
+          class="col-12 col-lg-4 d-flex justify-content-around align-items-center"
+        >
+          <figure class="card">
+            <img
+              class="card-img-top"
+              src="Assets/spel.jpeg"
+              alt="Card image cap"
+            />
+            <article class="card-body">
+              <h5 class="card-title">Sällskapsspel</h5>
+              <p class="card-text">
+                Alexandras bästa sällskapsspel. 
+              </p>
+              <a href="#" class="btn btn-danger">Läs mer</a>
+            </article>
+          </figure>
+        </section>
+        <section
+          class="col-12 col-lg-4 d-flex justify-content-around align-items-center"
+        >
+          <figure class="card">
+            <img
+              class="card-img-top"
+              src="Assets/tacos.jpeg"
+              alt="Card image cap"
+            />
+            <article class="card-body">
+              <h5 class="card-title">Restauranger</h5>
+              <p class="card-text">
+                Alexandras tips på Mexikos bästa tacos!
+              </p>
+              <a href="#" class="btn btn-danger">Läs mer</a>
+            </article>
+          </figure>
+        </section>
+      </section>
+
+      <footer class="row align-items-center">
+        <section class="col-12 col-lg-4">
+            <ul class="service">
+                <li>Kundservice</li>
+                <li>Vanliga frågor</li>
+                <li>Hållbarhet</li>
+            </ul>
+        </section>
+        <section class="col-12 col-lg-4">
+            <ul class="social">
+                <li><i class="bi bi-facebook"></i></li>
+                <li><i class="bi bi-instagram"></i></li>
+                <li><i class="bi bi-youtube"></i></li>
+                <li><i class="bi bi-twitter"></i></li>
+            </ul>
+        </section>
+        <section class="col-12 col-lg-4 p-4" id="alexandra">
+            <img src="assets/alexandra.jpeg" alt="alexandra" class="alexandra">
+        </section>
+      </footer>
+  </body>
+</html>
